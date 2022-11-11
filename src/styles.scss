@@ -1,1 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: "Anderson";
+    src: local("Anderson"), url(./assets/fonts/AndersonGrotesk.otf) format("truetype");
+}
+
+@font-face {
+    font-family: "Oswald";
+    src: local("Oswald"), url(./assets/fonts/Oswald.ttf) format("truetype");
+}
+
+
+body {
+    margin: 0px;
+}

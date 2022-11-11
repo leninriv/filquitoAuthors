@@ -1,0 +1,54 @@
+.image-content {
+    width: 300px;
+    height: 300px;
+    border-radius: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+}
+
+.circle-image {
+    width: 300px;
+    height: 300px;
+    border-radius: 300px;
+}
+
+.is-selected {
+    display: block !important;
+}
+
+.asset-icon {
+    height: 150px;
+    width: 150px;
+    display: none;
+}
+
+.image-mask {
+    width: 300px;
+    height: 300px;
+    border-radius: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.selected-mask{
+    width: 300px;
+    height: 300px;
+    border-radius: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer; 
+    background-color: rgba($color: #000000, $alpha: 0.5);
+}
+
+.image-mask:hover {
+    background-color: rgba($color: #000000, $alpha: 0.5);
+
+    .asset-icon {
+        display: block;
+    }
+}

@@ -1,0 +1,10 @@
+<div class="image-content" [ngStyle]="{'background-image':'url('+image+')'}">
+
+    <div *ngIf="collapsed" class="image-mask" (click)="onImagePress()">
+        <img class="asset-icon" src="../../../assets/icons/more.png" />
+    </div>
+
+    <div *ngIf="!collapsed" class="selected-mask" (click)="onImagePress()">
+        <img class="asset-icon is-selected" src="../../../assets/icons/less.png" />
+    </div>
+</div>

@@ -1,0 +1,13 @@
+<div class="collapse-content" *ngIf="item?.id">
+    <circle-image (imagePress)="onAction()" [collapsed]="collapsed" [image]="item.avatar"></circle-image>
+    <div class="author-name-content">
+        <div class="author-name">{{item.name}}</div>
+    </div>
+    <country [countryName]="item.country"></country>
+    
+    <div [ngClass]="collapsed? 'collapse-animation':'expand-animation'" [ngStyle]="{'height':collapsed? '0px':contentHeight }">
+        <div #divContent class="text-container">
+            <p class="text-content">{{item.bio}}</p>
+        </div>
+    </div>
+</div>

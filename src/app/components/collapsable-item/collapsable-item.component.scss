@@ -1,0 +1,41 @@
+.collapse-animation {
+    transition: height 0.5s;
+    overflow: hidden;
+}
+
+.expand-animation {
+    transition: height 0.5s;
+    overflow: hidden;
+}
+
+.collapse-content{
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 25px;
+}
+
+.text-container{
+    width: 300px;
+}
+
+.author-name{
+    text-align: center;
+    padding-top: 20px;
+    font-size: 25px;
+    max-width: 155px;
+    color: white;
+    font-family: "Oswald";
+}
+
+.author-name-content{
+    display: flex;
+    justify-content: center;
+}
+
+.text-content{
+    text-align: justify;
+    font-size: 18px;
+}
