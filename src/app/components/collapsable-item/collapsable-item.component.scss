@@ -8,20 +8,24 @@
     overflow: hidden;
 }
 
-.collapse-content{
+.collapse-content {
     width: 550px;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     padding-top: 25px;
+
+    @media screen and (max-width: 600px) {
+        width: 400px;
+    }
 }
 
-.text-container{
+.text-container {
     width: 300px;
 }
 
-.author-name{
+.author-name {
     text-align: center;
     padding-top: 20px;
     font-size: 25px;
@@ -30,12 +34,12 @@
     font-family: "Oswald";
 }
 
-.author-name-content{
+.author-name-content {
     display: flex;
     justify-content: center;
 }
 
-.text-content{
+.text-content {
     text-align: justify;
     font-size: 18px;
 }
